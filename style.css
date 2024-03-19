@@ -1,0 +1,33 @@
+*{
+    margin:10;
+    box-sizing: 20;
+    box-sizing: border-box
+  }
+     div{
+     width:150px;
+    height:200px;
+   background:red;
+   border:2px solid black;
+   margin:20px;
+   display: inline-block;
+   border-radius: 10px 20px 0px 40px;
+   
+     } 
+     #relativo{
+       background: rgba(230, 100, 170, 0.7);
+       position: relative;
+       top:100px ;
+       left:100px;
+     }
+     #absoluto{
+       background: rgba(0, 255, 0, 0.5);
+       position: absolute;
+       bottom: 100px;
+       right: 100px;
+     }
+        #fijo{
+       background: rgba(230, 100, 170, 0.7);
+       position: fixed;
+       top:100px ;
+       left:100px;
+     }
